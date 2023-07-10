@@ -13,7 +13,7 @@ if (isset($_POST['submit'])) {
 
   $Email = $_POST['Email'];
 
-  $sql = "INSERT INTO `students`(`Name`, `reg_no`, `Course`, `Age`, `Email`, ) VALUES ('$Name','$reg_no','$Course','$Age','$Email')";
+  $sql = "INSERT INTO `students`(`Name`, `reg_no`, `Course`, `Age`, `Email`) VALUES ('$Name','$reg_no','$Course','$Age','$Email')";
 
   $result = $conn->query($sql);
 
